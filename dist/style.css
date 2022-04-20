@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lobster&family=Poppins:wght@100&family=Roboto:wght@300&family=Rubik+Glitch&family=Space+Mono&display=swap');
+
+
+*{
+  margin: 0px;
+}
+body{
+  background: url("https://images.prismic.io/rluijtenant/e68e600b-ff64-4cc7-919e-c960062d7b88_chamonix-4.jpg?auto=compress,format&fit=clip&auto=compress&w=1293.8646160284577&h=862.6666666666666&dpr=2");
+  background-size: 1920px;
+  
+}
+#cardd{
+  position:relative;
+  width:320px;
+  height:400px;
+  background-image: url(https://lh3.googleusercontent.com/3oMo--w5D6dwTj1xgVff8LBZhjUDbdWLbjlWypLuXwz9mjMAG5I5iEGWjXvsU8SRFv4TdUEetDfbKOTqMWu-jT0geHJ4DIHusDwo6lVHiwRAehKGVVFoNksyaS3d731HIk37hOeY8Q=w1920-h1080);
+  background-size: cover;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px black;
+  /*margin-left:50%;*/
+  
+  align-content:center;
+  margin:150px auto;
+  
+}
+.pp{
+  width:120px;
+  border-radius:60px;
+  margin-left:30%;
+  margin-top:-20%;
+  border:solid 1px #d3b008;
+  box-shadow: 2px 2px 3px black;
+}
+h3{
+  margin-top:15px;
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 5px;
+  font-style: italic;
+  font-weight: 700;
+  text-align:center;
+  color: white;
+}
+h5{
+  margin-top: 2rem;
+  color:lightgrey;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  text-align:center;
+}
+#icons{
+  margin-top:30%;
+  margin-left:17%;
+  background:rgba(211, 211, 211, 0.3);
+  border-radius: 5px;
+}
+.icon{
+  margin-top:20px;
+  margin:10px;
+  width:30px;
+  
+}
+
+.icon:hover 
+.twitter{
+  transition: 1s;
+  fill:#000000;
+}
+.twitter:hover{
+  transition: 1s;
+  fill:#00acee;
+}
+.in{
+  transition: 1s;
+  fill:#000000;
+}
+.in:hover{
+  transition: 1s;
+  fill:#0e76a8;
+}
+.website{
+  transition: 1s;
+  fill:#000000;
+}
+.website:hover{
+  transition: 1s;
+  fill:#db4a39;
+}
